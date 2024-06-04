@@ -5,17 +5,33 @@
 //  Created by Henry Calderon on 6/3/24.
 //
 
+
+
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack {
+            VStack {
+                Spacer()
+                HStack {
+                    ZStack {
+                        Text("🎮")
+                            .font(.largeTitle)
+                        Text("Sold Out")
+                            .foregroundStyle(.red)
+                            .rotationEffect(.degrees(-15))
+                    }
+                    Text("")
+                        .font(.largeTitle)
+                    Text("🎮")
+                        .font(.largeTitle)
+                    Text("🎮")
+                        .font(.largeTitle)
+                }
+            }
+            
         }
-        .padding()
     }
 }
 
