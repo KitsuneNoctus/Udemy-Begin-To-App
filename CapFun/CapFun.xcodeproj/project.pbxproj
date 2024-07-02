@@ -14,6 +14,7 @@
 		BA901F9D2C337E87007474F1 /* CapFunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA901F9C2C337E87007474F1 /* CapFunTests.swift */; };
 		BA901FA72C337E87007474F1 /* CapFunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA901FA62C337E87007474F1 /* CapFunUITests.swift */; };
 		BA901FA92C337E87007474F1 /* CapFunUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA901FA82C337E87007474F1 /* CapFunUITestsLaunchTests.swift */; };
+		BA901FB62C3383A1007474F1 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA901FB52C3383A1007474F1 /* CustomButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		BA901FA22C337E87007474F1 /* CapFunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapFunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA901FA62C337E87007474F1 /* CapFunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapFunUITests.swift; sourceTree = "<group>"; };
 		BA901FA82C337E87007474F1 /* CapFunUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapFunUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA901FB52C3383A1007474F1 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				BA901F8D2C337E85007474F1 /* ContentView.swift */,
 				BA901F8F2C337E87007474F1 /* Assets.xcassets */,
 				BA901F912C337E87007474F1 /* Preview Content */,
+				BA901FB52C3383A1007474F1 /* CustomButtonView.swift */,
 			);
 			path = CapFun;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA901FB62C3383A1007474F1 /* CustomButtonView.swift in Sources */,
 				BA901F8E2C337E85007474F1 /* ContentView.swift in Sources */,
 				BA901F8C2C337E85007474F1 /* CapFunApp.swift in Sources */,
 			);

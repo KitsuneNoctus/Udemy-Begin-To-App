@@ -46,3 +46,33 @@ print(wallet)
 /*
  MAde a comment
  */
+
+// ---- Structs and Classes
+
+class Dog {
+    var name = ""
+    var age = 0
+    var furColor = ""
+}
+
+var myDog = Dog()
+myDog.age = 7
+myDog.furColor = "Brown"
+myDog.name = "Spot"
+
+var neighborDog = Dog()
+neighborDog.age = 3
+neighborDog.furColor = "White"
+neighborDog.name = "Smooth"
+
+struct Car {
+    var year: Int
+    var color: String
+}
+
+Car(year: 1992, color: "Red")
+
+struct Food {
+    var name: String
+    var type: String
+}
