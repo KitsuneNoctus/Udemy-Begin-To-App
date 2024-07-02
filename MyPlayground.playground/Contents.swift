@@ -76,3 +76,22 @@ struct Food {
     var name: String
     var type: String
 }
+
+// ------ If Statements
+
+var height = 49
+
+if height >= 50 {
+    print("You can ride the ride")
+}
+else {
+    print("Sorry, not tall enough :(")
+}
+
+//name = "Mark"
+if name == "Henry" {
+    print("Welcome")
+}
+else {
+    print("Get Out")
+}
