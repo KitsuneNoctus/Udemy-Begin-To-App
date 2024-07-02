@@ -11,27 +11,30 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack {
-            VStack {
-                Spacer()
-                HStack {
-                    ZStack {
-                        Text("🎮")
-                            .font(.largeTitle)
-                        Text("Sold Out")
-                            .foregroundStyle(.red)
-                            .rotationEffect(.degrees(-15))
-                    }
-                    Text("")
-                        .font(.largeTitle)
-                    Text("🎮")
-                        .font(.largeTitle)
-                    Text("🎮")
-                        .font(.largeTitle)
-                }
-            }
-            
+        Button("Button") {
+            print("Hello")
         }
+//        ZStack {
+//            VStack {
+//                Spacer()
+//                HStack {
+//                    ZStack {
+//                        Text("🎮")
+//                            .font(.largeTitle)
+//                        Text("Sold Out")
+//                            .foregroundStyle(.red)
+//                            .rotationEffect(.degrees(-15))
+//                    }
+//                    Text("")
+//                        .font(.largeTitle)
+//                    Text("🎮")
+//                        .font(.largeTitle)
+//                    Text("🎮")
+//                        .font(.largeTitle)
+//                }
+//            }
+//            
+//        }
     }
 }
 
