@@ -14,6 +14,7 @@
 		BAED24702C3C45B0007E5826 /* DayJournalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED246F2C3C45B0007E5826 /* DayJournalTests.swift */; };
 		BAED247A2C3C45B0007E5826 /* DayJournalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED24792C3C45B0007E5826 /* DayJournalUITests.swift */; };
 		BAED247C2C3C45B0007E5826 /* DayJournalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED247B2C3C45B0007E5826 /* DayJournalUITestsLaunchTests.swift */; };
+		BAED24892C3C4C3D007E5826 /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED24882C3C4C3D007E5826 /* JournalEntry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		BAED24752C3C45B0007E5826 /* DayJournalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayJournalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAED24792C3C45B0007E5826 /* DayJournalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayJournalUITests.swift; sourceTree = "<group>"; };
 		BAED247B2C3C45B0007E5826 /* DayJournalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayJournalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BAED24882C3C4C3D007E5826 /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				BAED24602C3C45AE007E5826 /* JournalEntriesList.swift */,
 				BAED24622C3C45B0007E5826 /* Assets.xcassets */,
 				BAED24642C3C45B0007E5826 /* Preview Content */,
+				BAED24882C3C4C3D007E5826 /* JournalEntry.swift */,
 			);
 			path = DayJournal;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAED24892C3C4C3D007E5826 /* JournalEntry.swift in Sources */,
 				BAED24612C3C45AE007E5826 /* JournalEntriesList.swift in Sources */,
 				BAED245F2C3C45AE007E5826 /* DayJournalApp.swift in Sources */,
 			);
