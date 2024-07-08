@@ -19,8 +19,9 @@ struct JournalEntryDetailView: View {
                         .bold()
                     Text("-")
                     Text(String(repeating: "⭐️", count: Int(detailJournalEntry.rating)))
+                    Spacer()
                 }
-                .frame(maxWidth:.infinity, alignment: .leading)
+//                .frame(maxWidth:.infinity, alignment: .leading)
                 .padding(.bottom)
                 Text(detailJournalEntry.text)
             }
