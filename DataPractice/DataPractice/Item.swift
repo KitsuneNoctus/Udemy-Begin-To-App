@@ -16,3 +16,12 @@ final class Item {
         self.timestamp = timestamp
     }
 }
+
+@Model
+final class ToDo {
+    var title: String
+    
+    init(title: String) {
+        self.title = title
+    }
+}

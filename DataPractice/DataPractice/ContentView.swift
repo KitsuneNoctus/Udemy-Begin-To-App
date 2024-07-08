@@ -10,16 +10,17 @@ import SwiftData
 
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
-    @Query private var items: [Item]
+//    @Query private var items: [Item]
+    @Query private var toDos: [ToDo]
 
     var body: some View {
         NavigationSplitView {
             List {
-                ForEach(items) { item in
+                ForEach(toDos) { toDo in
                     NavigationLink {
-                        Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
+                        Text("General Kenobi")
                     } label: {
-                        Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
+                        Text(toDo.title)
                     }
                 }
                 .onDelete(perform: deleteItems)
@@ -41,15 +42,19 @@ struct ContentView: View {
 
     private func addItem() {
         withAnimation {
-            let newItem = Item(timestamp: Date())
-            modelContext.insert(newItem)
+            // Create new Object
+//            let newItem = Item(timestamp: Date())
+            let newToDo = ToDo(title: "Hello There")
+            // Saving into Swift Data
+//            modelContext.insert(newItem)
+            modelContext.insert(newToDo)
         }
     }
 
     private func deleteItems(offsets: IndexSet) {
         withAnimation {
             for index in offsets {
-                modelContext.delete(items[index])
+                modelContext.delete(toDos[index])
             }
         }
     }
@@ -57,5 +62,5 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
-        .modelContainer(for: Item.self, inMemory: true)
+        .modelContainer(for: ToDo.self, inMemory: true)
 }
