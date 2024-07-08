@@ -9,6 +9,9 @@ import SwiftUI
 
 struct EditJournalEntryView: View {
     
+    @Environment(\.modelContext) private var modelContext
+    @Environment(\.dismiss) var dismiss
+    
     @State var editingJournalEntry: JournalEntry
     @State var editMode: Bool = false
     
@@ -23,9 +26,15 @@ struct EditJournalEntryView: View {
             }
             .navigationTitle("Edit Mode")
                 .toolbar {
+                    Button("Delete") {
+                        modelContext.delete(editingJournalEntry)
+                        dismiss()
+                    }
+                    .foregroundStyle(.red)
                     Button("Done") {
                         editMode = false
                     }
+                    .bold()
                 }
         }
         else {
