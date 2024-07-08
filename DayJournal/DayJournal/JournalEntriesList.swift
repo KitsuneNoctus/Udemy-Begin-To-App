@@ -19,7 +19,7 @@ struct JournalEntriesList: View {
     var body: some View {
         NavigationStack {
             List(journalEntries) { listedJournalEntry in
-                NavigationLink(destination: JournalEntryDetailView(detailJournalEntry: listedJournalEntry)) {
+                NavigationLink(destination: EditJournalEntryView(editingJournalEntry: listedJournalEntry)) {
                     JournalEntryRowView(rowJournalEntry: listedJournalEntry)
                 }
             }

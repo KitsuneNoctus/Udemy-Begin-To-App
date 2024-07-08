@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BAD476C32C3C9FEF002428E4 /* CreateJournalEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD476C22C3C9FEF002428E4 /* CreateJournalEntryView.swift */; };
+		BAD476C52C3CAAB4002428E4 /* EditJournalEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD476C42C3CAAB4002428E4 /* EditJournalEntryView.swift */; };
 		BAED245F2C3C45AE007E5826 /* DayJournalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED245E2C3C45AE007E5826 /* DayJournalApp.swift */; };
 		BAED24612C3C45AE007E5826 /* JournalEntriesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED24602C3C45AE007E5826 /* JournalEntriesList.swift */; };
 		BAED24632C3C45B0007E5826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAED24622C3C45B0007E5826 /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		BAD476C22C3C9FEF002428E4 /* CreateJournalEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateJournalEntryView.swift; sourceTree = "<group>"; };
+		BAD476C42C3CAAB4002428E4 /* EditJournalEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditJournalEntryView.swift; sourceTree = "<group>"; };
 		BAED245B2C3C45AE007E5826 /* DayJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAED245E2C3C45AE007E5826 /* DayJournalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayJournalApp.swift; sourceTree = "<group>"; };
 		BAED24602C3C45AE007E5826 /* JournalEntriesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntriesList.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				BAED248C2C3C575A007E5826 /* JournalEntryRowView.swift */,
 				BAED248A2C3C5268007E5826 /* JournalEntryDetailView.swift */,
 				BAD476C22C3C9FEF002428E4 /* CreateJournalEntryView.swift */,
+				BAD476C42C3CAAB4002428E4 /* EditJournalEntryView.swift */,
 				BAED24622C3C45B0007E5826 /* Assets.xcassets */,
 				BAED24642C3C45B0007E5826 /* Preview Content */,
 				BAED24882C3C4C3D007E5826 /* JournalEntry.swift */,
@@ -269,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAD476C52C3CAAB4002428E4 /* EditJournalEntryView.swift in Sources */,
 				BAED248D2C3C575A007E5826 /* JournalEntryRowView.swift in Sources */,
 				BAED24892C3C4C3D007E5826 /* JournalEntry.swift in Sources */,
 				BAED24612C3C45AE007E5826 /* JournalEntriesList.swift in Sources */,

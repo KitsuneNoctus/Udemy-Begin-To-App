@@ -167,3 +167,12 @@ if isItHot {
 isItHot
 
 var isItBrown: Bool = true
+
+isItHot = false
+
+if isItHot {
+    print("It is hot")
+}
+else {
+    print("It's not hot")
+}
