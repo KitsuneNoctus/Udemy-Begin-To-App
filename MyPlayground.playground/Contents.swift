@@ -101,34 +101,49 @@
  */
 
 //Arrays
+//var favCandy = ["Oh,Henry",  "Starburst", "Pocky", "Hi-Chew", "Rolo"]
+
+//// .first
+//favCandy.first
+//
+//// .last
+//favCandy.last
+//
+//// [0] Index
+//favCandy[0]
+//
+//// .count
+//favCandy.count
+//
+//// append()
+////favCandy.append("Wiley Wallaby")
+//print(favCandy)
+//
+//// .insert()
+//favCandy.insert("Wiley Wallaby", at: 4)
+//print(favCandy)
+//
+//// .remove()
+//favCandy.remove(at: 5)
+//print(favCandy)
+//
+//// Challenege - Make an array of yoru favorite Numbers and then remobve one
+//
+//var nums: [Int] = [3,13,45,100]
+//nums.remove(at: 2)
+//print(nums)
+
+// --- For Loop ---
 var favCandy = ["Oh,Henry",  "Starburst", "Pocky", "Hi-Chew", "Rolo"]
 
-// .first
-favCandy.first
+for number in 1...10 {
+    print(number)
+}
 
-// .last
-favCandy.last
+for candy in favCandy {
+    print(candy)
+}
 
-// [0] Index
-favCandy[0]
-
-// .count
-favCandy.count
-
-// append()
-//favCandy.append("Wiley Wallaby")
-print(favCandy)
-
-// .insert()
-favCandy.insert("Wiley Wallaby", at: 4)
-print(favCandy)
-
-// .remove()
-favCandy.remove(at: 5)
-print(favCandy)
-
-// Challenege - Make an array of yoru favorite Numbers and then remobve one
-
-var nums: [Int] = [3,13,45,100]
-nums.remove(at: 2)
-print(nums)
+for number in 1...50 {
+    print(number * 3)
+}
