@@ -6,8 +6,11 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct JournalEntriesList: View {
+    
+    @Query private var journalEntries: [JournalEntry]
     
     var body: some View {
         NavigationStack {
@@ -24,4 +27,5 @@ struct JournalEntriesList: View {
 
 #Preview {
     JournalEntriesList()
+        .modelContainer(for: JournalEntry.self, inMemory: true)
 }
