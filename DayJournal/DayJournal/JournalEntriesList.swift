@@ -9,6 +9,7 @@ import SwiftUI
 import SwiftData
 
 struct JournalEntriesList: View {
+    @Environment(\.modelContext) private var modelContext
     
     @Query private var journalEntries: [JournalEntry]
     
@@ -20,9 +21,30 @@ struct JournalEntriesList: View {
                 }
             }
             .navigationTitle("\(journalEntries.count) Journal Entries")
+            .toolbar {
+                Button(action: addItem) {
+                    Label("Add Item", systemImage: "plus")
+                }
+//                Button {
+//                    let newJournalEntry = JournalEntry(title: "Made a Journal Entry", text: "Used SwiftData to make and save a Journal Entry", rating: 4, date: Date())
+//                    modelContext.insert(newJournalEntry)
+//                } label: {
+//                    Label("Add Item", systemImage: "plus")
+//                }
+            }
         }
         
     }
+    
+    private func addItem() {
+        withAnimation {
+            // Create new Object
+            let newJournalEntry = JournalEntry(title: "Made a Journal Entry", text: "Used SwiftData to make and save a Journal Entry", rating: 4, date: Date())
+            // Saving into Swift Data
+            modelContext.insert(newJournalEntry)
+        }
+    }
+    
 }
 
 #Preview {
