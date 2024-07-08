@@ -14,18 +14,20 @@ struct JournalEntryDetailView: View {
     var body: some View {
         ScrollView{
             VStack(alignment: .leading) {
-                HStack {
+                HStack(alignment: .top) {
                     Text(detailJournalEntry.date, style: .date)
                         .bold()
                     Text("-")
                     Text(String(repeating: "⭐️", count: detailJournalEntry.rating))
                 }
+                .frame(maxWidth:.infinity, alignment: .leading)
                 .padding(.bottom)
                 Text(detailJournalEntry.text)
             }
             .padding()
         }
         .navigationTitle(detailJournalEntry.title)
+//        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
