@@ -12,7 +12,7 @@ struct JournalEntriesList: View {
     var body: some View {
         NavigationStack {
             List(journalEntries) { listedJournalEntry in
-                NavigationLink(destination: Text(String(listedJournalEntry.text))) {
+                NavigationLink(destination: JournalEntryDetailView(detailJournalEntry: listedJournalEntry)) {
                     Text(listedJournalEntry.title)
                 }
             }
