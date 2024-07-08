@@ -16,6 +16,7 @@
 		BAED247C2C3C45B0007E5826 /* DayJournalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED247B2C3C45B0007E5826 /* DayJournalUITestsLaunchTests.swift */; };
 		BAED24892C3C4C3D007E5826 /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED24882C3C4C3D007E5826 /* JournalEntry.swift */; };
 		BAED248B2C3C5268007E5826 /* JournalEntryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED248A2C3C5268007E5826 /* JournalEntryDetailView.swift */; };
+		BAED248D2C3C575A007E5826 /* JournalEntryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED248C2C3C575A007E5826 /* JournalEntryRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		BAED247B2C3C45B0007E5826 /* DayJournalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayJournalUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BAED24882C3C4C3D007E5826 /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
 		BAED248A2C3C5268007E5826 /* JournalEntryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryDetailView.swift; sourceTree = "<group>"; };
+		BAED248C2C3C575A007E5826 /* JournalEntryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			children = (
 				BAED245E2C3C45AE007E5826 /* DayJournalApp.swift */,
 				BAED24602C3C45AE007E5826 /* JournalEntriesList.swift */,
+				BAED248C2C3C575A007E5826 /* JournalEntryRowView.swift */,
 				BAED248A2C3C5268007E5826 /* JournalEntryDetailView.swift */,
 				BAED24622C3C45B0007E5826 /* Assets.xcassets */,
 				BAED24642C3C45B0007E5826 /* Preview Content */,
@@ -263,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAED248D2C3C575A007E5826 /* JournalEntryRowView.swift in Sources */,
 				BAED24892C3C4C3D007E5826 /* JournalEntry.swift in Sources */,
 				BAED24612C3C45AE007E5826 /* JournalEntriesList.swift in Sources */,
 				BAED248B2C3C5268007E5826 /* JournalEntryDetailView.swift in Sources */,

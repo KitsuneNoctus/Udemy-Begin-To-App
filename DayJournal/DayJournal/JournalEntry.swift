@@ -23,6 +23,6 @@ class JournalEntry: Identifiable {
 
 let journalEntries: [JournalEntry] = [
     JournalEntry(title: "A Great Gold Day", text: "I found some gold in the stream", rating: 5, date: Date()),
-    JournalEntry(title: "Headache", text: "Not feeling very well", rating: 2, date: Date()),
-    JournalEntry(title: "Made an App", text: "Made a journaling App", rating: 4, date: Date())
+    JournalEntry(title: "Headache", text: "Not feeling very well", rating: 2, date: Date.now.addingTimeInterval(-24 * 60 * 60)),
+    JournalEntry(title: "Made an App", text: "Made a journaling App", rating: 4, date: Date.now.addingTimeInterval(-7 * 24 * 60 * 60))
 ]

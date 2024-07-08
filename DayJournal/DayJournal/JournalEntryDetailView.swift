@@ -23,7 +23,8 @@ struct JournalEntryDetailView: View {
                 .padding(.bottom)
                 Text(detailJournalEntry.text)
             }
-            .padding()        }
+            .padding()
+        }
         .navigationTitle(detailJournalEntry.title)
     }
 }
