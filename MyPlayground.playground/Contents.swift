@@ -134,16 +134,36 @@
 //print(nums)
 
 // --- For Loop ---
-var favCandy = ["Oh,Henry",  "Starburst", "Pocky", "Hi-Chew", "Rolo"]
+//var favCandy = ["Oh,Henry",  "Starburst", "Pocky", "Hi-Chew", "Rolo"]
+//
+//for number in 1...10 {
+//    print(number)
+//}
+//
+//for candy in favCandy {
+//    print(candy)
+//}
+//
+//for number in 1...50 {
+//    print(number * 3)
+//}
 
-for number in 1...10 {
-    print(number)
+
+/*
+  ------- Section 5 ----------
+ */
+
+// *** Booleans ***
+var age: Int = 56
+
+var name: String = "Numa"
+
+var isItHot: Bool = true
+
+if isItHot {
+    print("It is hot")
 }
 
-for candy in favCandy {
-    print(candy)
-}
+isItHot
 
-for number in 1...50 {
-    print(number * 3)
-}
+var isItBrown: Bool = true
