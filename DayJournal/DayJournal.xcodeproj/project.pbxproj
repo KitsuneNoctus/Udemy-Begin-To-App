@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BAED245F2C3C45AE007E5826 /* DayJournalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED245E2C3C45AE007E5826 /* DayJournalApp.swift */; };
-		BAED24612C3C45AE007E5826 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED24602C3C45AE007E5826 /* ContentView.swift */; };
+		BAED24612C3C45AE007E5826 /* JournalEntriesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED24602C3C45AE007E5826 /* JournalEntriesList.swift */; };
 		BAED24632C3C45B0007E5826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAED24622C3C45B0007E5826 /* Assets.xcassets */; };
 		BAED24662C3C45B0007E5826 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAED24652C3C45B0007E5826 /* Preview Assets.xcassets */; };
 		BAED24702C3C45B0007E5826 /* DayJournalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED246F2C3C45B0007E5826 /* DayJournalTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		BAED245B2C3C45AE007E5826 /* DayJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAED245E2C3C45AE007E5826 /* DayJournalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayJournalApp.swift; sourceTree = "<group>"; };
-		BAED24602C3C45AE007E5826 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BAED24602C3C45AE007E5826 /* JournalEntriesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntriesList.swift; sourceTree = "<group>"; };
 		BAED24622C3C45B0007E5826 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAED24652C3C45B0007E5826 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BAED246B2C3C45B0007E5826 /* DayJournalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayJournalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				BAED245E2C3C45AE007E5826 /* DayJournalApp.swift */,
-				BAED24602C3C45AE007E5826 /* ContentView.swift */,
+				BAED24602C3C45AE007E5826 /* JournalEntriesList.swift */,
 				BAED24622C3C45B0007E5826 /* Assets.xcassets */,
 				BAED24642C3C45B0007E5826 /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAED24612C3C45AE007E5826 /* ContentView.swift in Sources */,
+				BAED24612C3C45AE007E5826 /* JournalEntriesList.swift in Sources */,
 				BAED245F2C3C45AE007E5826 /* DayJournalApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
