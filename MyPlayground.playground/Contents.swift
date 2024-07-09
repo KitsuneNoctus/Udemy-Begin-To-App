@@ -154,25 +154,95 @@
  */
 
 // *** Booleans ***
-var age: Int = 56
+//var age: Int = 56
+//
+//var name: String = "Numa"
+//
+//var isItHot: Bool = true
+//
+//if isItHot {
+//    print("It is hot")
+//}
+//
+//isItHot
+//
+//var isItBrown: Bool = true
+//
+//isItHot = false
+//
+//if isItHot {
+//    print("It is hot")
+//}
+//else {
+//    print("It's not hot")
+//}
 
-var name: String = "Numa"
+/*
+ -------------- Section 6 ---------------
+ */
 
-var isItHot: Bool = true
+// *** Functions ***
 
-if isItHot {
-    print("It is hot")
+
+//func sayHello() {
+//    print("Hello")
+//}
+//
+//sayHello()
+//
+//struct Dog {
+//    var name: String
+//    var age: Int
+//    
+//    func bark() {
+//        print("woof woof! My name is \(name) and I am \(age) years old.")
+//    }
+//}
+//
+//var myDog = Dog(name: "Fido", age: 5)
+//var neighborDog = Dog(name: "Max", age: 14)
+//
+//myDog.bark()
+//neighborDog.bark()
+//
+//func joke() {
+//    print("Why did the chicken cross the road?")
+//    print("To get to the KFC")
+//}
+//
+//joke()
+
+// *** Parameters and return ****
+
+//func addNumber(num: Int, num2: Int) -> Int {
+//    return num + num2
+//}
+//
+//print(addNumber(num: 4, num2: 7))
+//addNumber(num: 5, num2: addNumber(num: 6, num2: 2))
+//addNumber(num: -6, num2: 7)
+//
+//var age = addNumber(num: 5, num2: 17)
+//
+//func sayHello(name: String) -> String {
+//    return "Hello \(name)"
+//}
+//
+//print(sayHello(name: "Hank"))
+
+// **** Optionals ****
+
+var temp = Int("45")
+
+if temp != nil {
+    var newTemp = temp!
 }
 
-isItHot
+(temp ?? 1) * 2
 
-var isItBrown: Bool = true
-
-isItHot = false
-
-if isItHot {
-    print("It is hot")
+if let newTemp = temp {
+    newTemp * 2
 }
-else {
-    print("It's not hot")
-}
+
+
+var isNamed: String? = "Hank" // nil
