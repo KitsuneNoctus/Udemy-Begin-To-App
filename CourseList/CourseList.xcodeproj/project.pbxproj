@@ -12,6 +12,7 @@
 		BA1AE9E52C3DC40500A15E09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA1AE9E42C3DC40500A15E09 /* Assets.xcassets */; };
 		BA1AE9E82C3DC40500A15E09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA1AE9E72C3DC40500A15E09 /* Preview Assets.xcassets */; };
 		BA1AE9EF2C3DC9F000A15E09 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1AE9EE2C3DC9F000A15E09 /* Course.swift */; };
+		BADAB0562C3DD25D00C7F886 /* DefaultImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADAB0552C3DD25D00C7F886 /* DefaultImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		BA1AE9E42C3DC40500A15E09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA1AE9E72C3DC40500A15E09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BA1AE9EE2C3DC9F000A15E09 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		BADAB0552C3DD25D00C7F886 /* DefaultImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				BA1AE9E02C3DC40100A15E09 /* CourseListApp.swift */,
 				BA1AE9E22C3DC40100A15E09 /* CourseListView.swift */,
+				BADAB0552C3DD25D00C7F886 /* DefaultImageView.swift */,
 				BA1AE9E42C3DC40500A15E09 /* Assets.xcassets */,
 				BA1AE9E62C3DC40500A15E09 /* Preview Content */,
 				BA1AE9EE2C3DC9F000A15E09 /* Course.swift */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BADAB0562C3DD25D00C7F886 /* DefaultImageView.swift in Sources */,
 				BA1AE9EF2C3DC9F000A15E09 /* Course.swift in Sources */,
 				BA1AE9E32C3DC40100A15E09 /* CourseListView.swift in Sources */,
 				BA1AE9E12C3DC40100A15E09 /* CourseListApp.swift in Sources */,

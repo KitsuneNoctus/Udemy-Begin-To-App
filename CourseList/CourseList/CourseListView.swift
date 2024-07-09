@@ -31,10 +31,8 @@ struct CourseListView: View {
                                 image
                                     .resizable()
                                     .scaledToFill()
-                            case .failure(let error):
-                                Text("Error")
                             default:
-                                Text("It didn't work")
+                                DefaultImageView()
                             }
                         }
                     }
