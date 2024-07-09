@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Course: Identifiable {
+struct Course: Identifiable, Codable {
     var id: Int
     var image: String
     var title: String

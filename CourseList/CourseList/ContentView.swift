@@ -11,14 +11,11 @@ import SwiftUI
 
 struct ContentView: View {
     
-//    var courses: [Course] = []
+    @State var courses: [Course] = []
     
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        List(courses) { course in
+            Text(course.title)
         }
         .onAppear { getCourses() }
     }
@@ -30,7 +27,11 @@ struct ContentView: View {
             
             URLSession.shared.dataTask(with: request) { data, response, error in
                 if let courseData = data {
-                    print(String(data: courseData, encoding: .utf8) ?? "")
+//                    print(String(data: courseData, encoding: .utf8) ?? "")
+                    if let coursesFromAPI = try? JSONDecoder().decode([Course].self, from: courseData) {
+                        courses = coursesFromAPI
+                        print(courses)
+                    }
                 }
             }
             .resume()
